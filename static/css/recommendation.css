@@ -1,0 +1,93 @@
+body {
+    background-color: #eee
+}
+
+.card {
+    border: none;
+    border-radius:30px;
+    padding: 5px;
+}
+
+.c-details span {
+    font-weight: 300;
+    font-size: 13px
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 39px
+}
+
+.badge span {
+    background-color: #fffbec;
+    width: 60px;
+    height: 25px;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    color: #fed85d;
+    justify-content: center;
+    align-items: center
+}
+
+.progress {
+    height: 40px;
+    border-radius: 10px
+}
+
+.progress div {
+    background-color: #d10047
+}
+
+.text1 {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.text2 {
+    color: #a5aec0
+}
+
+
+/* SEARCH BAR */
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    
+    justify-content: space-between;
+    background: #d10047;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 0.25rem 0.25rem 0rem #f0b2a8;
+  }
+  
+input {
+    margin: 0 0.5rem 0 0.5rem;
+    width: 80%;
+    border: none;
+    outline: none;
+    background: #d10047;
+    color: white;
+  }
+  
+.speechbtn{
+    background: #d10047;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: white;
+    box-shadow: 0.25rem 0.25rem 0rem #f0b2a8;
+}  
+::placeholder {
+    color: #f0b2a8;
+}
+  
