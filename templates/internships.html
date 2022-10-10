@@ -46,9 +46,9 @@
 
             <li class="nav-item">
               <a class="nav-link" href="/internships"
-                ><i class="fa fa-search"> Browse Internships</i></a>
+                ><i class="fa fa-search"> Browse Internships</i></a
+              >
             </li>
-
           </ul>
         </div>
       </div>
@@ -59,7 +59,11 @@
     <div class="container">
       <div class="row">
         <div class="col-9">
-          <form method="POST" action="/recommend" style="display: inline-block">
+          <form
+            method="POST"
+            action="/internships"
+            style="display: inline-block"
+          >
             <div class="input-wrapper">
               <div class="fa fa-search"></div>
               {% if result %}
@@ -74,18 +78,6 @@
               {% endif %}
               <div class="fa fa-times"></div>
             </div>
-          </form>
-        </div>
-        <div class="col-3">
-          <form style="display: inline-block">
-            <button
-              formaction="/speech"
-              formmethod="GET"
-              value="Speak"
-              class="speechbtn"
-            >
-              Speak
-            </button>
           </form>
         </div>
       </div>
